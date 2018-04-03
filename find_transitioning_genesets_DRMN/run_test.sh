@@ -20,5 +20,5 @@ ${finder} ${inSep} example_data/celltype_order.txt example_data/ogids_exp.txt ip
 #### Run test of find_and_view
 ./find_and_view_transitionGenesets.sh example_input_drmn example_output_drmn example_data/celltype_order.txt example_data/ogids_exp.txt ips 3 0 14 /mnt/dv/wid/projects2/Roy-common/programs/scripts/figscripts/Heatmap.awk
 
-./find_and_view_transitionGenesets.sh example_input_rmn/results_#CELL# example_output_rmn example_data/celltype_order.txt example_data/ogids_exp.txt ips 3 0 14 /mnt/dv/wid/projects2/Roy-common/programs/scripts/figscripts/Heatmap.awk
+./find_and_view_transitionGenesets.sh example_input_rmn/result_#CELL# example_output_rmn example_data/celltype_order.txt example_data/ogids_exp.txt ips 3 0 14 /mnt/dv/wid/projects2/Roy-common/programs/scripts/figscripts/Heatmap.awk
  

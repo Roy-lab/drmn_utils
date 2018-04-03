@@ -484,6 +484,9 @@ Framework::generateOrderedClusterMeans(const char* outDirName)
 	map<string,vector<double>*> meanC_Set;
 	map<string,vector<int>*> meanD_Set;
 	map<string,HierarchicalClusterNode*> meanNodeSet;
+
+	map<string,int> clusterSizes;
+	
 	int gid=0;
 	//We need to compute the means, and reorder them for the clusters that are of reasonable size
 	for(map<int,vector<string>*>::iterator aIter=clusterset.begin();aIter!=clusterset.end();aIter++)
@@ -505,7 +508,10 @@ Framework::generateOrderedClusterMeans(const char* outDirName)
 		nameIDMap[cname]=gid;
 		node->size=1;
 		gid++;
+
+		clusterSizes[node->nodeName]=clusterMembers->size();
 	}
+
 	map<int,map<string,int>*> modules;
 	HierarchicalCluster clusterMeans;
 	clusterMeans.setDistanceType(HierarchicalCluster::PEARSON);
@@ -550,8 +556,17 @@ Framework::generateOrderedClusterMeans(const char* outDirName)
 		vector<int>* meanD=meanD_Set[ordering[i]];
 		for(int j=0;j<meanD->size();j++)
 		{
-			oFile << ordering[i] << "||8\t" << attribIDNameMap[j] <<"||8\t" << (*meanD)[j]<<"|1|"<<(*meanD)[j]<< endl;
+			oFile << ordering[i] << "||8\t" << attribIDNameMap[j] <<"||8\t" << (*meanD)[j]<<"|1|"<<(*meanD)[j] << endl;
 		}
+
+		// get the size. put a vspacer first.
+		if(i==0)
+		{
+			oFile <<"|- genesetSizeVspacer|Spacer"<< endl;
+		}
+		int mysize=clusterSizes[ordering[i]];
+		oFile << ordering[i] << "||8\t" << "Size" << "||8\t" << mysize << "|3|" << mysize << endl;
+
 	}
 	oFile.close();
 	return 0;
