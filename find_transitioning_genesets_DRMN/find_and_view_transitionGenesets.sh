@@ -22,6 +22,7 @@ threshold=0.05
 mingeneset=3
 
 echo $results
+echo $out
 #if [[ ! -d ${results} ]]; then
 #	echo "No directory: $results"
 #	exit
@@ -33,7 +34,6 @@ makeHeatmap=./makeTransitionHeatmaps_DRMN.sh
 # Run findTransitionGenesets
 out=${out}_min${mingeneset}_${threshold}
 mkdir ${out}
-echo $out
 ${findTransitionGenesets} ${results} ${order} ${ogids} ${srccell} $threshold ${out} $mingeneset
 
 # If results exist, plot.

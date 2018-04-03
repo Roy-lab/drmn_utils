@@ -80,7 +80,7 @@ The output directory will be appended with "_min3_0.05" (or whatever the setting
 
 Example usages:
 ./find_and_view_transitionGenesets.sh example_input_drmn example_output_drmn example_data/celltype_order.txt example_data/ogids_exp.txt ips 3 0 14 Heatmap.awk
-./find_and_view_transitionGenesets.sh example_input_rmn/results_#CELL# example_output_rmn example_data/celltype_order.txt example_data/ogids_exp.txt ips 3 0 14 Heatmap.awk
+./find_and_view_transitionGenesets.sh example_input_rmn/result_#CELL# example_output_rmn example_data/celltype_order.txt example_data/ogids_exp.txt ips 3 0 14 Heatmap.awk
 
 
 Acknowledgements

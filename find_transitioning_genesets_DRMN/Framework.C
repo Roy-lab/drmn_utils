@@ -283,7 +283,7 @@ Framework::readDataMatrixCellTypeSpecific(const char* aDirName)
 	}
 
 	int totalLoci=geneFrequency.size();
-	cout <<"Found" << nodeSet.size() << " loci that change cluster assignment of total " << totalLoci << endl;
+	cout <<"Found " << nodeSet.size() << " loci that change cluster assignment of total " << totalLoci << endl;
 
 	geneFrequency.clear();
 	geneValueSet.clear();
