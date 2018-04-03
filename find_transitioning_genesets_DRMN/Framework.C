@@ -116,7 +116,7 @@ Framework::readDataMatrix(const char* aDirName)
 		frequency.clear();
 		valueSet.clear();
 	}
-	cout <<"Found" << nodeSet.size() << " loci that change cluster assignment of total " << totalLoci << endl;
+	cout <<"Found " << nodeSet.size() << " loci that change cluster assignment of total " << totalLoci << endl;
 	if(attribNameIDMap.size()==0)
 	{
 		cout <<"Did not find any cell types! "<<endl;

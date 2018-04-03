@@ -46,4 +46,5 @@ do
  	cat $FNAME | $HEATMAPPER -vC="$modmap" -vStrokeC="-" -vStrokeSC="black" -vFontSize=6 -vL="moduleID expr" > $FIGNAME
 done
 
-cat $OUTDIR/all_assign.txt | $HEATMAPPER -vC="$modmap" -vStrokeC="-" -vStrokeSC="black" -vFontSize=6 -vL="moduleID expr" > $FIGDIR/all_assign.svg
+# Uncomment to make the all_assign.svg heatmap
+#cat $OUTDIR/all_assign.txt | $HEATMAPPER -vC="$modmap" -vStrokeC="-" -vStrokeSC="black" -vFontSize=6 -vL="moduleID expr" > $FIGDIR/all_assign.svg

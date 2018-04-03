@@ -22,10 +22,10 @@ threshold=0.05
 mingeneset=3
 
 echo $results
-if [[ ! -d ${results} ]]; then
-	echo "No directory: $results"
-	exit
-fi
+#if [[ ! -d ${results} ]]; then
+#	echo "No directory: $results"
+#	exit
+#fi
 
 findTransitionGenesets=./findTransitionGenesetsDRMN
 makeHeatmap=./makeTransitionHeatmaps_DRMN.sh
@@ -39,7 +39,7 @@ ${findTransitionGenesets} ${results} ${order} ${ogids} ${srccell} $threshold ${o
 # If results exist, plot.
 if [[ -e ${out}/all_genesets.txt ]]; then
 	ngenes=$(cat ${out}/all_clusterassign.txt | wc -l)
-	nclust=$(cat {out}/all_genesets.txt | wc -l)
+	nclust=$(cat ${out}/all_genesets.txt | wc -l)
 	echo "Found $ngenes total genes that change state."
 	echo "Found $nclust genesets with at least $mingeneset genes."
 	${makeHeatmap} ${out} $k $minExp $maxExp $HMAWK
