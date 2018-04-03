@@ -12,6 +12,9 @@ This directory contains the following tools:
 2. (Bash script) ./makeTransitionHeatmaps_DRMN.sh is a script that operates on the output of findTransitionGenesetsDRMN to make .svg figures for each set of genes and a bird's eye figure with the average pattern figure for all gene sets. 
 3. (Bash script) ./find_and_view_transitionGenesets.sh is a wrapper around both 1. and 2. to make it easier to run in one go.
 
+To plot the heatmaps, you will need the Heatmap.awk tool, written by Pouya Kheradpour. It is available from his website:
+http://compbio.mit.edu/pouyak/software/Heatmap.awk
+
 ## findTransitionGenesetsDRMN
 ## --------------------------
 This program will take the cell type-specific cluster assignments and cluster profiles and produce multiple files, one for each set of genes with a specific pattern. The size of the gene set is user defined to put a lower limit on the number of genes. 
@@ -82,6 +85,6 @@ Example usages:
 
 Acknowledgements
 -----------------
-We thank Pouya Kheradpour for writing the Heatmap.awk script: http://compbio.mit.edu/pouyak/software/Heatmap.awk
+We thank Pouya Kheradpour for writing the Heatmap.awk script.
 
 
