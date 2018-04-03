@@ -26,7 +26,6 @@ fi
 # loop over cell types
 while read cell
 do
-	echo $cell
 	innet=${resdir}/${cell}_net.txt
 	inmod=${resdir}/${cell}_clusterassign.txt 
 	outnet=${resdir}/${cell}_expanded_net.txt
@@ -36,8 +35,8 @@ do
 	do
 		if [[ -e $f ]]; then
 			hasfiles=$((hasfiles+1))
-		else
-			echo "No file $f"
+		#else
+		#	echo "No file $f"
 		fi
 	done
 	# no files for this celltype 
