@@ -18,7 +18,7 @@ class Framework
 	int readDataMatrixCellTypeSpecific(const char*); // read from the speciesspecnames_clusterassign files, a different dir per celltype
 	int readOGIDs(const char*,const char*);
 	int setSrcCellType(const char*);
-	int readOrder(const char*); // reads celltype order
+	int readOrder(const char* order, const char* result); // reads celltype order 
 	int generateTransitioningGeneSets(double threshold,const char* outdir,int mingenesetSize);
 	int generateOrderedClusterMeans(const char* aFName);
 	int reorder(const char* aFSuff,double threshold,const char* outdir,int mingenesetSize);
@@ -47,5 +47,7 @@ class Framework
 	map<string,GeneExpManager*> markProfileSet;
 	map<int,vector<string>*> clusterset;
 	string srcCelltype;
+
+	vector<int> hasData; // which celltypes had data
 };
 #endif

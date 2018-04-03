@@ -161,6 +161,11 @@ Framework::readDataMatrixCellTypeSpecific(const char* aDirName)
 
 	map<string, string> dirnames; // figure out the directory names for each celltype
 
+	//vector<int> hasData; // cell type IDs that have any data. we might not have data for a celltype.
+	// hasData is the order of cell types in the geneValueSet entries.
+
+	
+
 	for(map<int,string>::iterator cIter=attribIDNameMap.begin();cIter!=attribIDNameMap.end();cIter++)
 	{
 		string cellName=cIter->second;
@@ -181,6 +186,7 @@ Framework::readDataMatrixCellTypeSpecific(const char* aDirName)
 		char aFName[1024];
 		sprintf(aFName,"%s/%s_speciesspecnames_clusterassign.txt",cellDir.c_str(),cellName.c_str());
 		cout << "...Reading cluster assignments: " << aFName << endl;
+		
 		ifstream inFile(aFName);
 		char* buffer=NULL;
 		int bufflen=0;
@@ -188,6 +194,9 @@ Framework::readDataMatrixCellTypeSpecific(const char* aDirName)
 
 		while(inFile.good())
 		{
+			// record that we have data for this celltype
+			hasData.push_back(cIter->first);
+
 			getline(inFile,strbuff);
 			if(strbuff.length()<=0)
 			{
@@ -245,6 +254,8 @@ Framework::readDataMatrixCellTypeSpecific(const char* aDirName)
 			}
 		} // end reading one celltype's file
 		inFile.close();
+
+	
 	} // end first loop over celltypes to read in data
 
 
@@ -292,6 +303,8 @@ Framework::readDataMatrixCellTypeSpecific(const char* aDirName)
 	for(map<int,string>::iterator cIter=attribIDNameMap.begin();cIter!=attribIDNameMap.end();cIter++)
 	{
 		string cellName=cIter->second;
+		int cellID=cIter->first;
+
 		char geneFName[1024];
 		sprintf(geneFName,"%s/%s_exprtab.txt",dirnames[cellName].c_str(),cellName.c_str());
 		cout << "...Reading expression: " << geneFName << endl;
@@ -699,7 +712,7 @@ Framework::readColumns(char* buffer)
 * (required for INDEP mode -- DC 4/2018)
 */
 int 
-Framework::readOrder(const char* oFName)
+Framework::readOrder(const char* oFName, const char* resultDir)
 {
 	ifstream inFile(oFName);
 	char* buffer=NULL;
@@ -734,9 +747,19 @@ Framework::readOrder(const char* oFName)
 				colName.append(tok);
 			}
 			tok=strtok(NULL,"\t");
-			// add to attribNameIDMap
 			tokCnt++;
 		}
+		// check for data file before adding.
+		char testFName[1024];
+		sprintf(testFName,"%s/%s_clusterassign.txt",resultDir,colName.c_str());
+		ifstream testme(testFName);
+		bool hasData=testme.good();
+		if (!hasData)
+		{
+			cout << "No data found for celltype " << colName << endl;
+			continue;
+		}
+		testme.close();
 		attribNameIDMap[colName]=colID;
 		attribIDNameMap[colID]=colName;
 		colID++;
@@ -809,7 +832,7 @@ main(int argc, const char** argv)
  	// in RMN mode, we may have multiple directories, one per cell type.
  	// in this case, we will find the cell type-specific directory 
  	// by replacing the placeholder #CELL# with each cell type name
-	fw.readOrder(argv[2]); // populate the cell type order
+	fw.readOrder(argv[2], argv[1]); // populate the cell type order. check to see if we have data before adding.
 	fw.readOGIDs(argv[2],argv[3]); // read ogids so we can map names
 	fw.setSrcCellType(argv[4]); // set the src celltype
 	fw.readDataMatrixCellTypeSpecific(argv[1]); // read assignments and expression data
