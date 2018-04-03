@@ -1,0 +1,227 @@
+Aass||6	ips||8	3|1|3
+Aass||6	pips||8	2|1|2
+Aass||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Aass||6	ips_ips||6	8.5898|2
+|- cellmarkerVspacer1|Spacer
+Aass||6	pips_pips||6	5.45615|2
+|- cellmarkerVspacer2|Spacer
+Aass||6	mef_mef||6	4.51578|2
+|- cellmarkerVspacer3|Spacer
+Rhox5||6	ips||8	3|1|3
+Rhox5||6	pips||8	2|1|2
+Rhox5||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Rhox5||6	ips_ips||6	12.0545|2
+Rhox5||6	pips_pips||6	8.70638|2
+Rhox5||6	mef_mef||6	5.19605|2
+Bex4||6	ips||8	3|1|3
+Bex4||6	pips||8	2|1|2
+Bex4||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Bex4||6	ips_ips||6	11.2929|2
+Bex4||6	pips_pips||6	6.59686|2
+Bex4||6	mef_mef||6	4.11336|2
+Sall1||6	ips||8	3|1|3
+Sall1||6	pips||8	2|1|2
+Sall1||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Sall1||6	ips_ips||6	9.37814|2
+Sall1||6	pips_pips||6	7.7657|2
+Sall1||6	mef_mef||6	5.69789|2
+Hook1||6	ips||8	3|1|3
+Hook1||6	pips||8	2|1|2
+Hook1||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Hook1||6	ips_ips||6	9.60207|2
+Hook1||6	pips_pips||6	8.17008|2
+Hook1||6	mef_mef||6	3.84833|2
+Spint1||6	ips||8	3|1|3
+Spint1||6	pips||8	2|1|2
+Spint1||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Spint1||6	ips_ips||6	8.9654|2
+Spint1||6	pips_pips||6	7.39976|2
+Spint1||6	mef_mef||6	4.76152|2
+Bex2||6	ips||8	3|1|3
+Bex2||6	pips||8	2|1|2
+Bex2||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Bex2||6	ips_ips||6	10.865|2
+Bex2||6	pips_pips||6	5.77972|2
+Bex2||6	mef_mef||6	4.62852|2
+Rpp25||6	ips||8	3|1|3
+Rpp25||6	pips||8	2|1|2
+Rpp25||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Rpp25||6	ips_ips||6	9.35222|2
+Rpp25||6	pips_pips||6	7.06578|2
+Rpp25||6	mef_mef||6	3.52411|2
+Fgf4||6	ips||8	3|1|3
+Fgf4||6	pips||8	2|1|2
+Fgf4||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Fgf4||6	ips_ips||6	10.0725|2
+Fgf4||6	pips_pips||6	7.70376|2
+Fgf4||6	mef_mef||6	4.61234|2
+Phlda2||6	ips||8	3|1|3
+Phlda2||6	pips||8	2|1|2
+Phlda2||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Phlda2||6	ips_ips||6	8.80508|2
+Phlda2||6	pips_pips||6	6.63295|2
+Phlda2||6	mef_mef||6	5.13409|2
+Gbx2||6	ips||8	3|1|3
+Gbx2||6	pips||8	2|1|2
+Gbx2||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Gbx2||6	ips_ips||6	9.33311|2
+Gbx2||6	pips_pips||6	5.942|2
+Gbx2||6	mef_mef||6	3.66743|2
+Smtnl2||6	ips||8	3|1|3
+Smtnl2||6	pips||8	2|1|2
+Smtnl2||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Smtnl2||6	ips_ips||6	8.9433|2
+Smtnl2||6	pips_pips||6	6.78686|2
+Smtnl2||6	mef_mef||6	5.08571|2
+LOC100047936||6	ips||8	3|1|3
+LOC100047936||6	pips||8	2|1|2
+LOC100047936||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+LOC100047936||6	ips_ips||6	9.29242|2
+LOC100047936||6	pips_pips||6	8.4124|2
+LOC100047936||6	mef_mef||6	5.36845|2
+Tacstd1||6	ips||8	3|1|3
+Tacstd1||6	pips||8	2|1|2
+Tacstd1||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Tacstd1||6	ips_ips||6	10.8691|2
+Tacstd1||6	pips_pips||6	8.90419|2
+Tacstd1||6	mef_mef||6	4.4268|2
+Tex19||6	ips||8	3|1|3
+Tex19||6	pips||8	2|1|2
+Tex19||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Tex19||6	ips_ips||6	11.7213|2
+Tex19||6	pips_pips||6	5.76979|2
+Tex19||6	mef_mef||6	4.82609|2
+Lrrc34||6	ips||8	3|1|3
+Lrrc34||6	pips||8	2|1|2
+Lrrc34||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Lrrc34||6	ips_ips||6	9.41458|2
+Lrrc34||6	pips_pips||6	6.47827|2
+Lrrc34||6	mef_mef||6	3.22883|2
+Slc7a7||6	ips||8	3|1|3
+Slc7a7||6	pips||8	2|1|2
+Slc7a7||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Slc7a7||6	ips_ips||6	9.16515|2
+Slc7a7||6	pips_pips||6	8.55059|2
+Slc7a7||6	mef_mef||6	5.73223|2
+Fbxo15||6	ips||8	3|1|3
+Fbxo15||6	pips||8	2|1|2
+Fbxo15||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Fbxo15||6	ips_ips||6	11.7977|2
+Fbxo15||6	pips_pips||6	8.73462|2
+Fbxo15||6	mef_mef||6	4.16683|2
+Otx2||6	ips||8	3|1|3
+Otx2||6	pips||8	2|1|2
+Otx2||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Otx2||6	ips_ips||6	9.13712|2
+Otx2||6	pips_pips||6	6.25655|2
+Otx2||6	mef_mef||6	2.69278|2
+Morc1||6	ips||8	3|1|3
+Morc1||6	pips||8	2|1|2
+Morc1||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Morc1||6	ips_ips||6	10.668|2
+Morc1||6	pips_pips||6	8.61889|2
+Morc1||6	mef_mef||6	2.95537|2
+Trap1a||6	ips||8	3|1|3
+Trap1a||6	pips||8	2|1|2
+Trap1a||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Trap1a||6	ips_ips||6	11.8056|2
+Trap1a||6	pips_pips||6	5.37576|2
+Trap1a||6	mef_mef||6	3.25946|2
+Trim71||6	ips||8	3|1|3
+Trim71||6	pips||8	2|1|2
+Trim71||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Trim71||6	ips_ips||6	9.38986|2
+Trim71||6	pips_pips||6	6.07581|2
+Trim71||6	mef_mef||6	3.89719|2
+Mreg||6	ips||8	3|1|3
+Mreg||6	pips||8	2|1|2
+Mreg||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Mreg||6	ips_ips||6	11.4197|2
+Mreg||6	pips_pips||6	8.42185|2
+Mreg||6	mef_mef||6	4.96791|2
+Nr0b1||6	ips||8	3|1|3
+Nr0b1||6	pips||8	2|1|2
+Nr0b1||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Nr0b1||6	ips_ips||6	10.8066|2
+Nr0b1||6	pips_pips||6	7.07303|2
+Nr0b1||6	mef_mef||6	3.48744|2
+Zic3||6	ips||8	3|1|3
+Zic3||6	pips||8	2|1|2
+Zic3||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Zic3||6	ips_ips||6	10.5055|2
+Zic3||6	pips_pips||6	7.71765|2
+Zic3||6	mef_mef||6	2.94083|2
+Wfdc2||6	ips||8	3|1|3
+Wfdc2||6	pips||8	2|1|2
+Wfdc2||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Wfdc2||6	ips_ips||6	9.53356|2
+Wfdc2||6	pips_pips||6	8.40625|2
+Wfdc2||6	mef_mef||6	5.51485|2
+Mylpf||6	ips||8	3|1|3
+Mylpf||6	pips||8	2|1|2
+Mylpf||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Mylpf||6	ips_ips||6	9.54352|2
+Mylpf||6	pips_pips||6	6.95773|2
+Mylpf||6	mef_mef||6	4.98373|2
+Dnmt3b||6	ips||8	3|1|3
+Dnmt3b||6	pips||8	2|1|2
+Dnmt3b||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Dnmt3b||6	ips_ips||6	10.3407|2
+Dnmt3b||6	pips_pips||6	7.02593|2
+Dnmt3b||6	mef_mef||6	5.32865|2
+BC038822||6	ips||8	3|1|3
+BC038822||6	pips||8	2|1|2
+BC038822||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+BC038822||6	ips_ips||6	8.7953|2
+BC038822||6	pips_pips||6	7.02047|2
+BC038822||6	mef_mef||6	5.34775|2
+Rex2$LOC100041379||6	ips||8	3|1|3
+Rex2$LOC100041379||6	pips||8	2|1|2
+Rex2$LOC100041379||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Rex2$LOC100041379||6	ips_ips||6	12.0666|2
+Rex2$LOC100041379||6	pips_pips||6	6.05516|2
+Rex2$LOC100041379||6	mef_mef||6	3.68192|2
+Folr1||6	ips||8	3|1|3
+Folr1||6	pips||8	2|1|2
+Folr1||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Folr1||6	ips_ips||6	10.1324|2
+Folr1||6	pips_pips||6	6.5483|2
+Folr1||6	mef_mef||6	4.97948|2
+Apoe||6	ips||8	3|1|3
+Apoe||6	pips||8	2|1|2
+Apoe||6	mef||8	1|1|1
+|- MyVspacer1|Spacer
+Apoe||6	ips_ips||6	10.947|2
+Apoe||6	pips_pips||6	7.76328|2
+Apoe||6	mef_mef||6	5.64468|2

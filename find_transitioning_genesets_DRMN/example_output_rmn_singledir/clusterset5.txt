@@ -1,0 +1,878 @@
+1810015A11Rik||6	ips||8	2|1|2
+1810015A11Rik||6	pips||8	3|1|3
+1810015A11Rik||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+1810015A11Rik||6	ips_ips||6	8.53561|2
+|- cellmarkerVspacer1|Spacer
+1810015A11Rik||6	pips_pips||6	9.80065|2
+|- cellmarkerVspacer2|Spacer
+1810015A11Rik||6	mef_mef||6	7.46011|2
+|- cellmarkerVspacer3|Spacer
+Loh11cr2a||6	ips||8	2|1|2
+Loh11cr2a||6	pips||8	3|1|3
+Loh11cr2a||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Loh11cr2a||6	ips_ips||6	8.2367|2
+Loh11cr2a||6	pips_pips||6	10.2044|2
+Loh11cr2a||6	mef_mef||6	9.14517|2
+Shroom4||6	ips||8	2|1|2
+Shroom4||6	pips||8	3|1|3
+Shroom4||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Shroom4||6	ips_ips||6	7.28078|2
+Shroom4||6	pips_pips||6	9.2261|2
+Shroom4||6	mef_mef||6	8.41481|2
+LOC100046643||6	ips||8	2|1|2
+LOC100046643||6	pips||8	3|1|3
+LOC100046643||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+LOC100046643||6	ips_ips||6	7.9801|2
+LOC100046643||6	pips_pips||6	9.48834|2
+LOC100046643||6	mef_mef||6	8.76042|2
+Rogdi||6	ips||8	2|1|2
+Rogdi||6	pips||8	3|1|3
+Rogdi||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Rogdi||6	ips_ips||6	8.79324|2
+Rogdi||6	pips_pips||6	9.15155|2
+Rogdi||6	mef_mef||6	8.16358|2
+Sepp1||6	ips||8	2|1|2
+Sepp1||6	pips||8	3|1|3
+Sepp1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Sepp1||6	ips_ips||6	7.84883|2
+Sepp1||6	pips_pips||6	10.782|2
+Sepp1||6	mef_mef||6	8.74839|2
+Agpat4||6	ips||8	2|1|2
+Agpat4||6	pips||8	3|1|3
+Agpat4||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Agpat4||6	ips_ips||6	8.53171|2
+Agpat4||6	pips_pips||6	10.0409|2
+Agpat4||6	mef_mef||6	9.05035|2
+Parp12||6	ips||8	2|1|2
+Parp12||6	pips||8	3|1|3
+Parp12||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Parp12||6	ips_ips||6	7.88991|2
+Parp12||6	pips_pips||6	10.832|2
+Parp12||6	mef_mef||6	7.41649|2
+Hagh$Hagh||6	ips||8	2|1|2
+Hagh$Hagh||6	pips||8	3|1|3
+Hagh$Hagh||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Hagh$Hagh||6	ips_ips||6	8.95039|2
+Hagh$Hagh||6	pips_pips||6	9.78768|2
+Hagh$Hagh||6	mef_mef||6	8.28724|2
+4632417K18Rik||6	ips||8	2|1|2
+4632417K18Rik||6	pips||8	3|1|3
+4632417K18Rik||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+4632417K18Rik||6	ips_ips||6	8.51403|2
+4632417K18Rik||6	pips_pips||6	9.58226|2
+4632417K18Rik||6	mef_mef||6	8.97041|2
+Fundc1||6	ips||8	2|1|2
+Fundc1||6	pips||8	3|1|3
+Fundc1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Fundc1||6	ips_ips||6	8.89747|2
+Fundc1||6	pips_pips||6	9.08452|2
+Fundc1||6	mef_mef||6	8.57415|2
+2200001I15Rik||6	ips||8	2|1|2
+2200001I15Rik||6	pips||8	3|1|3
+2200001I15Rik||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+2200001I15Rik||6	ips_ips||6	9.14743|2
+2200001I15Rik||6	pips_pips||6	9.81292|2
+2200001I15Rik||6	mef_mef||6	6.43786|2
+Fos||6	ips||8	2|1|2
+Fos||6	pips||8	3|1|3
+Fos||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Fos||6	ips_ips||6	7.68886|2
+Fos||6	pips_pips||6	10.811|2
+Fos||6	mef_mef||6	9.14671|2
+Aldh2||6	ips||8	2|1|2
+Aldh2||6	pips||8	3|1|3
+Aldh2||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Aldh2||6	ips_ips||6	8.80211|2
+Aldh2||6	pips_pips||6	9.63726|2
+Aldh2||6	mef_mef||6	7.83535|2
+Stk38||6	ips||8	2|1|2
+Stk38||6	pips||8	3|1|3
+Stk38||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Stk38||6	ips_ips||6	8.838|2
+Stk38||6	pips_pips||6	9.74817|2
+Stk38||6	mef_mef||6	8.69724|2
+Suds3||6	ips||8	2|1|2
+Suds3||6	pips||8	3|1|3
+Suds3||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Suds3||6	ips_ips||6	8.71185|2
+Suds3||6	pips_pips||6	9.31369|2
+Suds3||6	mef_mef||6	8.85778|2
+Mgst1||6	ips||8	2|1|2
+Mgst1||6	pips||8	3|1|3
+Mgst1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Mgst1||6	ips_ips||6	6.757|2
+Mgst1||6	pips_pips||6	9.64913|2
+Mgst1||6	mef_mef||6	8.84656|2
+Gsr||6	ips||8	2|1|2
+Gsr||6	pips||8	3|1|3
+Gsr||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Gsr||6	ips_ips||6	9.28298|2
+Gsr||6	pips_pips||6	10.4509|2
+Gsr||6	mef_mef||6	8.73833|2
+Ociad1||6	ips||8	2|1|2
+Ociad1||6	pips||8	3|1|3
+Ociad1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Ociad1||6	ips_ips||6	9.58802|2
+Ociad1||6	pips_pips||6	10.4274|2
+Ociad1||6	mef_mef||6	9.87421|2
+2210412D01Rik||6	ips||8	2|1|2
+2210412D01Rik||6	pips||8	3|1|3
+2210412D01Rik||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+2210412D01Rik||6	ips_ips||6	9.39612|2
+2210412D01Rik||6	pips_pips||6	10.1983|2
+2210412D01Rik||6	mef_mef||6	8.92199|2
+Pfkm||6	ips||8	2|1|2
+Pfkm||6	pips||8	3|1|3
+Pfkm||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Pfkm||6	ips_ips||6	8.08704|2
+Pfkm||6	pips_pips||6	9.27899|2
+Pfkm||6	mef_mef||6	8.10086|2
+Lgals9||6	ips||8	2|1|2
+Lgals9||6	pips||8	3|1|3
+Lgals9||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Lgals9||6	ips_ips||6	7.48686|2
+Lgals9||6	pips_pips||6	10.1244|2
+Lgals9||6	mef_mef||6	8.47484|2
+Slc16a1||6	ips||8	2|1|2
+Slc16a1||6	pips||8	3|1|3
+Slc16a1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Slc16a1||6	ips_ips||6	9.98418|2
+Slc16a1||6	pips_pips||6	10.5943|2
+Slc16a1||6	mef_mef||6	8.40718|2
+Slc39a10||6	ips||8	2|1|2
+Slc39a10||6	pips||8	3|1|3
+Slc39a10||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Slc39a10||6	ips_ips||6	9.40257|2
+Slc39a10||6	pips_pips||6	10.2473|2
+Slc39a10||6	mef_mef||6	8.88279|2
+Mapk13||6	ips||8	2|1|2
+Mapk13||6	pips||8	3|1|3
+Mapk13||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Mapk13||6	ips_ips||6	7.40714|2
+Mapk13||6	pips_pips||6	10.8574|2
+Mapk13||6	mef_mef||6	7.72267|2
+Mcart1||6	ips||8	2|1|2
+Mcart1||6	pips||8	3|1|3
+Mcart1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Mcart1||6	ips_ips||6	8.63107|2
+Mcart1||6	pips_pips||6	10.3591|2
+Mcart1||6	mef_mef||6	9.50152|2
+Smarcd2||6	ips||8	2|1|2
+Smarcd2||6	pips||8	3|1|3
+Smarcd2||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Smarcd2||6	ips_ips||6	8.80694|2
+Smarcd2||6	pips_pips||6	9.69478|2
+Smarcd2||6	mef_mef||6	9.01954|2
+Ss18||6	ips||8	2|1|2
+Ss18||6	pips||8	3|1|3
+Ss18||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Ss18||6	ips_ips||6	9.55782|2
+Ss18||6	pips_pips||6	9.58772|2
+Ss18||6	mef_mef||6	9.33117|2
+Mea1||6	ips||8	2|1|2
+Mea1||6	pips||8	3|1|3
+Mea1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Mea1||6	ips_ips||6	9.26551|2
+Mea1||6	pips_pips||6	10.2164|2
+Mea1||6	mef_mef||6	9.59207|2
+Midn||6	ips||8	2|1|2
+Midn||6	pips||8	3|1|3
+Midn||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Midn||6	ips_ips||6	8.95087|2
+Midn||6	pips_pips||6	9.67969|2
+Midn||6	mef_mef||6	8.89735|2
+Suhw3||6	ips||8	2|1|2
+Suhw3||6	pips||8	3|1|3
+Suhw3||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Suhw3||6	ips_ips||6	8.59835|2
+Suhw3||6	pips_pips||6	8.98877|2
+Suhw3||6	mef_mef||6	8.16354|2
+Suclg2||6	ips||8	2|1|2
+Suclg2||6	pips||8	3|1|3
+Suclg2||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Suclg2||6	ips_ips||6	9.15572|2
+Suclg2||6	pips_pips||6	9.44929|2
+Suclg2||6	mef_mef||6	7.9117|2
+Mrp63||6	ips||8	2|1|2
+Mrp63||6	pips||8	3|1|3
+Mrp63||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Mrp63||6	ips_ips||6	9.82567|2
+Mrp63||6	pips_pips||6	9.98911|2
+Mrp63||6	mef_mef||6	9.4228|2
+Lad1||6	ips||8	2|1|2
+Lad1||6	pips||8	3|1|3
+Lad1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Lad1||6	ips_ips||6	6.34087|2
+Lad1||6	pips_pips||6	9.51001|2
+Lad1||6	mef_mef||6	5.5366|2
+Sigirr||6	ips||8	2|1|2
+Sigirr||6	pips||8	3|1|3
+Sigirr||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Sigirr||6	ips_ips||6	8.24329|2
+Sigirr||6	pips_pips||6	10.6323|2
+Sigirr||6	mef_mef||6	5.26096|2
+Skap2||6	ips||8	2|1|2
+Skap2||6	pips||8	3|1|3
+Skap2||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Skap2||6	ips_ips||6	8.71233|2
+Skap2||6	pips_pips||6	9.52362|2
+Skap2||6	mef_mef||6	8.14136|2
+Lama5||6	ips||8	2|1|2
+Lama5||6	pips||8	3|1|3
+Lama5||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Lama5||6	ips_ips||6	7.81933|2
+Lama5||6	pips_pips||6	9.065|2
+Lama5||6	mef_mef||6	7.67511|2
+2010315L10Rik||6	ips||8	2|1|2
+2010315L10Rik||6	pips||8	3|1|3
+2010315L10Rik||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+2010315L10Rik||6	ips_ips||6	9.41157|2
+2010315L10Rik||6	pips_pips||6	9.94635|2
+2010315L10Rik||6	mef_mef||6	8.76139|2
+Fkbp2||6	ips||8	2|1|2
+Fkbp2||6	pips||8	3|1|3
+Fkbp2||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Fkbp2||6	ips_ips||6	9.03524|2
+Fkbp2||6	pips_pips||6	9.68965|2
+Fkbp2||6	mef_mef||6	9.56705|2
+BC004004||6	ips||8	2|1|2
+BC004004||6	pips||8	3|1|3
+BC004004||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+BC004004||6	ips_ips||6	8.83375|2
+BC004004||6	pips_pips||6	9.29353|2
+BC004004||6	mef_mef||6	9.79143|2
+F11r||6	ips||8	2|1|2
+F11r||6	pips||8	3|1|3
+F11r||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+F11r||6	ips_ips||6	8.844|2
+F11r||6	pips_pips||6	9.91892|2
+F11r||6	mef_mef||6	8.21359|2
+Bcap29||6	ips||8	2|1|2
+Bcap29||6	pips||8	3|1|3
+Bcap29||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Bcap29||6	ips_ips||6	9.07919|2
+Bcap29||6	pips_pips||6	10.1339|2
+Bcap29||6	mef_mef||6	8.87443|2
+Fez1||6	ips||8	2|1|2
+Fez1||6	pips||8	3|1|3
+Fez1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Fez1||6	ips_ips||6	7.47547|2
+Fez1||6	pips_pips||6	9.86273|2
+Fez1||6	mef_mef||6	7.92739|2
+B3gnt2||6	ips||8	2|1|2
+B3gnt2||6	pips||8	3|1|3
+B3gnt2||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+B3gnt2||6	ips_ips||6	8.43462|2
+B3gnt2||6	pips_pips||6	9.93408|2
+B3gnt2||6	mef_mef||6	8.10326|2
+Ehmt2||6	ips||8	2|1|2
+Ehmt2||6	pips||8	3|1|3
+Ehmt2||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Ehmt2||6	ips_ips||6	9.05097|2
+Ehmt2||6	pips_pips||6	9.65619|2
+Ehmt2||6	mef_mef||6	9.00343|2
+2610030H06Rik||6	ips||8	2|1|2
+2610030H06Rik||6	pips||8	3|1|3
+2610030H06Rik||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+2610030H06Rik||6	ips_ips||6	8.38019|2
+2610030H06Rik||6	pips_pips||6	10.1084|2
+2610030H06Rik||6	mef_mef||6	8.58496|2
+Dock11||6	ips||8	2|1|2
+Dock11||6	pips||8	3|1|3
+Dock11||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Dock11||6	ips_ips||6	8.15087|2
+Dock11||6	pips_pips||6	8.77784|2
+Dock11||6	mef_mef||6	8.3039|2
+Mbtps2||6	ips||8	2|1|2
+Mbtps2||6	pips||8	3|1|3
+Mbtps2||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Mbtps2||6	ips_ips||6	9.54703|2
+Mbtps2||6	pips_pips||6	9.47106|2
+Mbtps2||6	mef_mef||6	8.97696|2
+Slurp1||6	ips||8	2|1|2
+Slurp1||6	pips||8	3|1|3
+Slurp1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Slurp1||6	ips_ips||6	6.18041|2
+Slurp1||6	pips_pips||6	9.5366|2
+Slurp1||6	mef_mef||6	5.85041|2
+Peg3||6	ips||8	2|1|2
+Peg3||6	pips||8	3|1|3
+Peg3||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Peg3||6	ips_ips||6	8.23911|2
+Peg3||6	pips_pips||6	9.25046|2
+Peg3||6	mef_mef||6	7.9256|2
+Acsl4||6	ips||8	2|1|2
+Acsl4||6	pips||8	3|1|3
+Acsl4||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Acsl4||6	ips_ips||6	7.92727|2
+Acsl4||6	pips_pips||6	8.94597|2
+Acsl4||6	mef_mef||6	8.6272|2
+Pir||6	ips||8	2|1|2
+Pir||6	pips||8	3|1|3
+Pir||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Pir||6	ips_ips||6	9.26714|2
+Pir||6	pips_pips||6	9.33216|2
+Pir||6	mef_mef||6	6.39746|2
+Idh3b||6	ips||8	2|1|2
+Idh3b||6	pips||8	3|1|3
+Idh3b||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Idh3b||6	ips_ips||6	9.59797|2
+Idh3b||6	pips_pips||6	9.93395|2
+Idh3b||6	mef_mef||6	9.16841|2
+Peci||6	ips||8	2|1|2
+Peci||6	pips||8	3|1|3
+Peci||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Peci||6	ips_ips||6	8.60266|2
+Peci||6	pips_pips||6	9.88955|2
+Peci||6	mef_mef||6	9.22734|2
+Hsd3b7||6	ips||8	2|1|2
+Hsd3b7||6	pips||8	3|1|3
+Hsd3b7||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Hsd3b7||6	ips_ips||6	7.61852|2
+Hsd3b7||6	pips_pips||6	9.57893|2
+Hsd3b7||6	mef_mef||6	7.09741|2
+LOC100041546||6	ips||8	2|1|2
+LOC100041546||6	pips||8	3|1|3
+LOC100041546||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+LOC100041546||6	ips_ips||6	7.17257|2
+LOC100041546||6	pips_pips||6	11.9938|2
+LOC100041546||6	mef_mef||6	7.06252|2
+Rnf125||6	ips||8	2|1|2
+Rnf125||6	pips||8	3|1|3
+Rnf125||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Rnf125||6	ips_ips||6	8.70214|2
+Rnf125||6	pips_pips||6	10.039|2
+Rnf125||6	mef_mef||6	5.56516|2
+Rela||6	ips||8	2|1|2
+Rela||6	pips||8	3|1|3
+Rela||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Rela||6	ips_ips||6	8.06419|2
+Rela||6	pips_pips||6	9.72821|2
+Rela||6	mef_mef||6	9.41856|2
+Adsl||6	ips||8	2|1|2
+Adsl||6	pips||8	3|1|3
+Adsl||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Adsl||6	ips_ips||6	9.52056|2
+Adsl||6	pips_pips||6	9.7212|2
+Adsl||6	mef_mef||6	8.59426|2
+Dync2li1||6	ips||8	2|1|2
+Dync2li1||6	pips||8	3|1|3
+Dync2li1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Dync2li1||6	ips_ips||6	8.15384|2
+Dync2li1||6	pips_pips||6	9.04866|2
+Dync2li1||6	mef_mef||6	8.10519|2
+Atad3a||6	ips||8	2|1|2
+Atad3a||6	pips||8	3|1|3
+Atad3a||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Atad3a||6	ips_ips||6	9.44501|2
+Atad3a||6	pips_pips||6	9.91775|2
+Atad3a||6	mef_mef||6	8.03171|2
+N6amt2||6	ips||8	2|1|2
+N6amt2||6	pips||8	3|1|3
+N6amt2||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+N6amt2||6	ips_ips||6	8.71911|2
+N6amt2||6	pips_pips||6	9.25355|2
+N6amt2||6	mef_mef||6	8.69733|2
+Trip6||6	ips||8	2|1|2
+Trip6||6	pips||8	3|1|3
+Trip6||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Trip6||6	ips_ips||6	8.59738|2
+Trip6||6	pips_pips||6	10.1118|2
+Trip6||6	mef_mef||6	9.49232|2
+Tmem16a||6	ips||8	2|1|2
+Tmem16a||6	pips||8	3|1|3
+Tmem16a||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Tmem16a||6	ips_ips||6	5.13932|2
+Tmem16a||6	pips_pips||6	9.29659|2
+Tmem16a||6	mef_mef||6	5.6627|2
+Msln||6	ips||8	2|1|2
+Msln||6	pips||8	3|1|3
+Msln||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Msln||6	ips_ips||6	7.7649|2
+Msln||6	pips_pips||6	11.66|2
+Msln||6	mef_mef||6	6.79232|2
+Ankrd13a||6	ips||8	2|1|2
+Ankrd13a||6	pips||8	3|1|3
+Ankrd13a||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Ankrd13a||6	ips_ips||6	9.6737|2
+Ankrd13a||6	pips_pips||6	10.4231|2
+Ankrd13a||6	mef_mef||6	9.79162|2
+Ypel2||6	ips||8	2|1|2
+Ypel2||6	pips||8	3|1|3
+Ypel2||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Ypel2||6	ips_ips||6	6.56993|2
+Ypel2||6	pips_pips||6	9.86845|2
+Ypel2||6	mef_mef||6	6.30577|2
+Nsbp1||6	ips||8	2|1|2
+Nsbp1||6	pips||8	3|1|3
+Nsbp1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Nsbp1||6	ips_ips||6	8.80342|2
+Nsbp1||6	pips_pips||6	9.73684|2
+Nsbp1||6	mef_mef||6	7.81828|2
+Ube2e2||6	ips||8	2|1|2
+Ube2e2||6	pips||8	3|1|3
+Ube2e2||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Ube2e2||6	ips_ips||6	7.26237|2
+Ube2e2||6	pips_pips||6	9.45983|2
+Ube2e2||6	mef_mef||6	8.54305|2
+Ugt1a1||6	ips||8	2|1|2
+Ugt1a1||6	pips||8	3|1|3
+Ugt1a1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Ugt1a1||6	ips_ips||6	7.05924|2
+Ugt1a1||6	pips_pips||6	11.2234|2
+Ugt1a1||6	mef_mef||6	7.41513|2
+Nrn1||6	ips||8	2|1|2
+Nrn1||6	pips||8	3|1|3
+Nrn1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Nrn1||6	ips_ips||6	6.30688|2
+Nrn1||6	pips_pips||6	9.17351|2
+Nrn1||6	mef_mef||6	8.26564|2
+Def6||6	ips||8	2|1|2
+Def6||6	pips||8	3|1|3
+Def6||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Def6||6	ips_ips||6	8.10302|2
+Def6||6	pips_pips||6	9.75772|2
+Def6||6	mef_mef||6	7.51085|2
+Dctd||6	ips||8	2|1|2
+Dctd||6	pips||8	3|1|3
+Dctd||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Dctd||6	ips_ips||6	8.49473|2
+Dctd||6	pips_pips||6	9.11367|2
+Dctd||6	mef_mef||6	7.35514|2
+Dbnl||6	ips||8	2|1|2
+Dbnl||6	pips||8	3|1|3
+Dbnl||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Dbnl||6	ips_ips||6	8.88387|2
+Dbnl||6	pips_pips||6	9.48982|2
+Dbnl||6	mef_mef||6	8.84796|2
+Ddef2||6	ips||8	2|1|2
+Ddef2||6	pips||8	3|1|3
+Ddef2||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Ddef2||6	ips_ips||6	6.99907|2
+Ddef2||6	pips_pips||6	9.47798|2
+Ddef2||6	mef_mef||6	6.32681|2
+Utp11l||6	ips||8	2|1|2
+Utp11l||6	pips||8	3|1|3
+Utp11l||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Utp11l||6	ips_ips||6	9.2223|2
+Utp11l||6	pips_pips||6	9.86593|2
+Utp11l||6	mef_mef||6	9.2125|2
+Cnot6||6	ips||8	2|1|2
+Cnot6||6	pips||8	3|1|3
+Cnot6||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Cnot6||6	ips_ips||6	8.69416|2
+Cnot6||6	pips_pips||6	9.61236|2
+Cnot6||6	mef_mef||6	8.92096|2
+Ndufa4l2||6	ips||8	2|1|2
+Ndufa4l2||6	pips||8	3|1|3
+Ndufa4l2||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Ndufa4l2||6	ips_ips||6	8.11362|2
+Ndufa4l2||6	pips_pips||6	9.08111|2
+Ndufa4l2||6	mef_mef||6	8.32587|2
+Trps1$LOC100044341||6	ips||8	2|1|2
+Trps1$LOC100044341||6	pips||8	3|1|3
+Trps1$LOC100044341||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Trps1$LOC100044341||6	ips_ips||6	7.37144|2
+Trps1$LOC100044341||6	pips_pips||6	9.33405|2
+Trps1$LOC100044341||6	mef_mef||6	7.85217|2
+Tmem70||6	ips||8	2|1|2
+Tmem70||6	pips||8	3|1|3
+Tmem70||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Tmem70||6	ips_ips||6	8.71726|2
+Tmem70||6	pips_pips||6	10.007|2
+Tmem70||6	mef_mef||6	9.85491|2
+Myo18a||6	ips||8	2|1|2
+Myo18a||6	pips||8	3|1|3
+Myo18a||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Myo18a||6	ips_ips||6	8.66195|2
+Myo18a||6	pips_pips||6	9.72642|2
+Myo18a||6	mef_mef||6	8.45194|2
+Cyp2s1||6	ips||8	2|1|2
+Cyp2s1||6	pips||8	3|1|3
+Cyp2s1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Cyp2s1||6	ips_ips||6	8.05944|2
+Cyp2s1||6	pips_pips||6	9.33756|2
+Cyp2s1||6	mef_mef||6	5.81326|2
+Arhgdig||6	ips||8	2|1|2
+Arhgdig||6	pips||8	3|1|3
+Arhgdig||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Arhgdig||6	ips_ips||6	7.51646|2
+Arhgdig||6	pips_pips||6	8.85235|2
+Arhgdig||6	mef_mef||6	8.08943|2
+Npepl1||6	ips||8	2|1|2
+Npepl1||6	pips||8	3|1|3
+Npepl1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Npepl1||6	ips_ips||6	8.29627|2
+Npepl1||6	pips_pips||6	9.1|2
+Npepl1||6	mef_mef||6	8.74319|2
+Ubl4||6	ips||8	2|1|2
+Ubl4||6	pips||8	3|1|3
+Ubl4||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Ubl4||6	ips_ips||6	9.03493|2
+Ubl4||6	pips_pips||6	9.23258|2
+Ubl4||6	mef_mef||6	8.95987|2
+Tspan7||6	ips||8	2|1|2
+Tspan7||6	pips||8	3|1|3
+Tspan7||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Tspan7||6	ips_ips||6	7.88907|2
+Tspan7||6	pips_pips||6	9.75994|2
+Tspan7||6	mef_mef||6	7.6901|2
+Nolc1||6	ips||8	2|1|2
+Nolc1||6	pips||8	3|1|3
+Nolc1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Nolc1||6	ips_ips||6	10.1217|2
+Nolc1||6	pips_pips||6	9.99834|2
+Nolc1||6	mef_mef||6	8.47892|2
+Fam18b||6	ips||8	2|1|2
+Fam18b||6	pips||8	3|1|3
+Fam18b||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Fam18b||6	ips_ips||6	9.2886|2
+Fam18b||6	pips_pips||6	10.0951|2
+Fam18b||6	mef_mef||6	10.0286|2
+AW555464||6	ips||8	2|1|2
+AW555464||6	pips||8	3|1|3
+AW555464||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+AW555464||6	ips_ips||6	8.40032|2
+AW555464||6	pips_pips||6	9.3355|2
+AW555464||6	mef_mef||6	8.57883|2
+Dync1h1||6	ips||8	2|1|2
+Dync1h1||6	pips||8	3|1|3
+Dync1h1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Dync1h1||6	ips_ips||6	9.53346|2
+Dync1h1||6	pips_pips||6	10.3009|2
+Dync1h1||6	mef_mef||6	9.71256|2
+1810042K04Rik||6	ips||8	2|1|2
+1810042K04Rik||6	pips||8	3|1|3
+1810042K04Rik||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+1810042K04Rik||6	ips_ips||6	8.69943|2
+1810042K04Rik||6	pips_pips||6	9.78318|2
+1810042K04Rik||6	mef_mef||6	8.13697|2
+Ftsj1||6	ips||8	2|1|2
+Ftsj1||6	pips||8	3|1|3
+Ftsj1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Ftsj1||6	ips_ips||6	9.46329|2
+Ftsj1||6	pips_pips||6	9.98129|2
+Ftsj1||6	mef_mef||6	7.96706|2
+Btbd1||6	ips||8	2|1|2
+Btbd1||6	pips||8	3|1|3
+Btbd1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Btbd1||6	ips_ips||6	9.29156|2
+Btbd1||6	pips_pips||6	9.99267|2
+Btbd1||6	mef_mef||6	9.23942|2
+Ggh||6	ips||8	2|1|2
+Ggh||6	pips||8	3|1|3
+Ggh||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Ggh||6	ips_ips||6	7.25242|2
+Ggh||6	pips_pips||6	9.51718|2
+Ggh||6	mef_mef||6	7.75167|2
+Acadl||6	ips||8	2|1|2
+Acadl||6	pips||8	3|1|3
+Acadl||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Acadl||6	ips_ips||6	8.06048|2
+Acadl||6	pips_pips||6	10.1226|2
+Acadl||6	mef_mef||6	9.38327|2
+Cda||6	ips||8	2|1|2
+Cda||6	pips||8	3|1|3
+Cda||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Cda||6	ips_ips||6	5.24946|2
+Cda||6	pips_pips||6	9.18216|2
+Cda||6	mef_mef||6	5.39608|2
+Sh3glb2||6	ips||8	2|1|2
+Sh3glb2||6	pips||8	3|1|3
+Sh3glb2||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Sh3glb2||6	ips_ips||6	8.01297|2
+Sh3glb2||6	pips_pips||6	10.2428|2
+Sh3glb2||6	mef_mef||6	8.05135|2
+Serpinb9b||6	ips||8	2|1|2
+Serpinb9b||6	pips||8	3|1|3
+Serpinb9b||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Serpinb9b||6	ips_ips||6	7.15115|2
+Serpinb9b||6	pips_pips||6	10.3858|2
+Serpinb9b||6	mef_mef||6	7.35665|2
+LOC100047009||6	ips||8	2|1|2
+LOC100047009||6	pips||8	3|1|3
+LOC100047009||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+LOC100047009||6	ips_ips||6	8.94907|2
+LOC100047009||6	pips_pips||6	9.57596|2
+LOC100047009||6	mef_mef||6	8.45523|2
+Atp2a3||6	ips||8	2|1|2
+Atp2a3||6	pips||8	3|1|3
+Atp2a3||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Atp2a3||6	ips_ips||6	7.29427|2
+Atp2a3||6	pips_pips||6	10.6998|2
+Atp2a3||6	mef_mef||6	5.95476|2
+Phb2||6	ips||8	2|1|2
+Phb2||6	pips||8	3|1|3
+Phb2||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Phb2||6	ips_ips||6	10.531|2
+Phb2||6	pips_pips||6	10.8035|2
+Phb2||6	mef_mef||6	9.99546|2
+Hspb8||6	ips||8	2|1|2
+Hspb8||6	pips||8	3|1|3
+Hspb8||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Hspb8||6	ips_ips||6	7.90422|2
+Hspb8||6	pips_pips||6	10.5766|2
+Hspb8||6	mef_mef||6	9.08278|2
+Pak4||6	ips||8	2|1|2
+Pak4||6	pips||8	3|1|3
+Pak4||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Pak4||6	ips_ips||6	9.15686|2
+Pak4||6	pips_pips||6	9.57157|2
+Pak4||6	mef_mef||6	7.85331|2
+C77080||6	ips||8	2|1|2
+C77080||6	pips||8	3|1|3
+C77080||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+C77080||6	ips_ips||6	8.28591|2
+C77080||6	pips_pips||6	9.28723|2
+C77080||6	mef_mef||6	7.06019|2
+Plec1$LOC100046469||6	ips||8	2|1|2
+Plec1$LOC100046469||6	pips||8	3|1|3
+Plec1$LOC100046469||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Plec1$LOC100046469||6	ips_ips||6	7.11871|2
+Plec1$LOC100046469||6	pips_pips||6	9.33576|2
+Plec1$LOC100046469||6	mef_mef||6	8.79968|2
+Ifi30$Ifi30||6	ips||8	2|1|2
+Ifi30$Ifi30||6	pips||8	3|1|3
+Ifi30$Ifi30||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Ifi30$Ifi30||6	ips_ips||6	8.47225|2
+Ifi30$Ifi30||6	pips_pips||6	9.61688|2
+Ifi30$Ifi30||6	mef_mef||6	8.8975|2
+Ptp4a3||6	ips||8	2|1|2
+Ptp4a3||6	pips||8	3|1|3
+Ptp4a3||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Ptp4a3||6	ips_ips||6	7.9508|2
+Ptp4a3||6	pips_pips||6	10.1705|2
+Ptp4a3||6	mef_mef||6	7.58382|2
+Igfbp3||6	ips||8	2|1|2
+Igfbp3||6	pips||8	3|1|3
+Igfbp3||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Igfbp3||6	ips_ips||6	7.76361|2
+Igfbp3||6	pips_pips||6	10.3465|2
+Igfbp3||6	mef_mef||6	8.61946|2
+Poldip2||6	ips||8	2|1|2
+Poldip2||6	pips||8	3|1|3
+Poldip2||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Poldip2||6	ips_ips||6	9.51598|2
+Poldip2||6	pips_pips||6	10.7833|2
+Poldip2||6	mef_mef||6	8.97378|2
+Ifrd2||6	ips||8	2|1|2
+Ifrd2||6	pips||8	3|1|3
+Ifrd2||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Ifrd2||6	ips_ips||6	8.94911|2
+Ifrd2||6	pips_pips||6	9.58403|2
+Ifrd2||6	mef_mef||6	7.87795|2
+Ankrd25||6	ips||8	2|1|2
+Ankrd25||6	pips||8	3|1|3
+Ankrd25||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Ankrd25||6	ips_ips||6	9.22946|2
+Ankrd25||6	pips_pips||6	9.81203|2
+Ankrd25||6	mef_mef||6	9.61977|2
+Iqgap2||6	ips||8	2|1|2
+Iqgap2||6	pips||8	3|1|3
+Iqgap2||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Iqgap2||6	ips_ips||6	7.27571|2
+Iqgap2||6	pips_pips||6	9.38875|2
+Iqgap2||6	mef_mef||6	6.43321|2
+Ptprv||6	ips||8	2|1|2
+Ptprv||6	pips||8	3|1|3
+Ptprv||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Ptprv||6	ips_ips||6	7.21043|2
+Ptprv||6	pips_pips||6	9.85273|2
+Ptprv||6	mef_mef||6	8.24828|2
+Rac3||6	ips||8	2|1|2
+Rac3||6	pips||8	3|1|3
+Rac3||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Rac3||6	ips_ips||6	7.30273|2
+Rac3||6	pips_pips||6	9.98584|2
+Rac3||6	mef_mef||6	6.98537|2
+Ccdc139||6	ips||8	2|1|2
+Ccdc139||6	pips||8	3|1|3
+Ccdc139||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Ccdc139||6	ips_ips||6	8.81618|2
+Ccdc139||6	pips_pips||6	9.36267|2
+Ccdc139||6	mef_mef||6	8.71591|2
+Klhl5||6	ips||8	2|1|2
+Klhl5||6	pips||8	3|1|3
+Klhl5||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Klhl5||6	ips_ips||6	6.26228|2
+Klhl5||6	pips_pips||6	8.64811|2
+Klhl5||6	mef_mef||6	8.75109|2
+Rbck1||6	ips||8	2|1|2
+Rbck1||6	pips||8	3|1|3
+Rbck1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Rbck1||6	ips_ips||6	9.00964|2
+Rbck1||6	pips_pips||6	10.1018|2
+Rbck1||6	mef_mef||6	8.67974|2
+Rbm10||6	ips||8	2|1|2
+Rbm10||6	pips||8	3|1|3
+Rbm10||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Rbm10||6	ips_ips||6	9.78389|2
+Rbm10||6	pips_pips||6	9.19286|2
+Rbm10||6	mef_mef||6	8.3803|2
+Jund1||6	ips||8	2|1|2
+Jund1||6	pips||8	3|1|3
+Jund1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Jund1||6	ips_ips||6	9.35302|2
+Jund1||6	pips_pips||6	9.91557|2
+Jund1||6	mef_mef||6	9.21129|2
+Irak1||6	ips||8	2|1|2
+Irak1||6	pips||8	3|1|3
+Irak1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Irak1||6	ips_ips||6	8.46518|2
+Irak1||6	pips_pips||6	8.94079|2
+Irak1||6	mef_mef||6	8.09553|2
+Pus1||6	ips||8	2|1|2
+Pus1||6	pips||8	3|1|3
+Pus1||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Pus1||6	ips_ips||6	8.98439|2
+Pus1||6	pips_pips||6	9.96663|2
+Pus1||6	mef_mef||6	8.55312|2
+Ptgfrn||6	ips||8	2|1|2
+Ptgfrn||6	pips||8	3|1|3
+Ptgfrn||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Ptgfrn||6	ips_ips||6	8.26728|2
+Ptgfrn||6	pips_pips||6	10.4713|2
+Ptgfrn||6	mef_mef||6	8.56119|2
+Cbx6||6	ips||8	2|1|2
+Cbx6||6	pips||8	3|1|3
+Cbx6||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Cbx6||6	ips_ips||6	8.42064|2
+Cbx6||6	pips_pips||6	9.23074|2
+Cbx6||6	mef_mef||6	8.79248|2
+Csnk1g2||6	ips||8	2|1|2
+Csnk1g2||6	pips||8	3|1|3
+Csnk1g2||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+Csnk1g2||6	ips_ips||6	9.17396|2
+Csnk1g2||6	pips_pips||6	9.50809|2
+Csnk1g2||6	mef_mef||6	9.19492|2
+5730494N06Rik||6	ips||8	2|1|2
+5730494N06Rik||6	pips||8	3|1|3
+5730494N06Rik||6	mef||8	2|1|2
+|- MyVspacer1|Spacer
+5730494N06Rik||6	ips_ips||6	10.4646|2
+5730494N06Rik||6	pips_pips||6	11.3922|2
+5730494N06Rik||6	mef_mef||6	10.2361|2
