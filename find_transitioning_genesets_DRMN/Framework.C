@@ -751,8 +751,16 @@ Framework::readOrder(const char* oFName, const char* resultDir)
 		}
 		// check for data file before adding.
 		char testFName[1024];
+		
 		sprintf(testFName,"%s/%s_clusterassign.txt",resultDir,colName.c_str());
-		ifstream testme(testFName);
+		string testStr(testFName);		
+		string placeholder("#CELL#");
+		if (testStr.find(placeholder)!=string::npos)
+		{
+			testStr.replace(testStr.find(placeholder), placeholder.length(), colName);
+		}
+
+		ifstream testme(testStr.c_str());
 		bool hasData=testme.good();
 		if (!hasData)
 		{
