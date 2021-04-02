@@ -1,0 +1,7 @@
+/home/local/MORGRIDGE/sroy/data/influenza/proteinexp/ca04m001_protexp_ratios.txt
+/home/local/MORGRIDGE/sroy/data/influenza/proteinexp/im001_protexp_ratios.txt
+/home/local/MORGRIDGE/sroy/data/influenza/proteinexp/im004_protexp_ratios.txt
+/home/local/MORGRIDGE/sroy/data/influenza/proteinexp/im005_protexp_ratios.txt
+/home/local/MORGRIDGE/sroy/data/influenza/proteinexp/im006_protexp_10_3_ratios.txt
+/home/local/MORGRIDGE/sroy/data/influenza/proteinexp/im006_protexp_10_4_ratios.txt
+/home/local/MORGRIDGE/sroy/data/influenza/proteinexp/im007_protexp_ratios.txt
