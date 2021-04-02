@@ -1,7 +1,0 @@
-/home/local/MORGRIDGE/sroy/data/influenza/geneexp/ca04m001_geneexp_ratio_commonnames.txt
-/home/local/MORGRIDGE/sroy/data/influenza/geneexp/im001_geneexp_ratio_commonnames.txt
-/home/local/MORGRIDGE/sroy/data/influenza/geneexp/im004_geneexp_ratio_commonnames.txt
-/home/local/MORGRIDGE/sroy/data/influenza/geneexp/im005_geneexp_ratio_commonnames.txt
-/home/local/MORGRIDGE/sroy/data/influenza/geneexp/im006_geneexp_ratio_commonnames.txt
-/home/local/MORGRIDGE/sroy/data/influenza/geneexp/im006_10^4_geneexp_ratio_commonnames.txt
-/home/local/MORGRIDGE/sroy/data/influenza/geneexp/im007_geneexp_ratio_commonnames_v2.txt

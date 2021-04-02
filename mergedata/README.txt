@@ -1,11 +1,13 @@
 mergeData will vertically join data matrices on the same row IDs.
 
+Compilation:g++ Framework.C -g -o mergeData
+
 Usage:
 >> ./mergeData
 mergeData infileset outputexpr
 
-infileset: a text file with one filename per row
-outputexpr : a new filename for the merged result
+infileset: a text file with one filename per row to define the set of input files to merge columnwise.
+outputexpr : a new filename for the merged data file result.
 
 Example input file 1:
 	Gene	Sample1	Sample2
