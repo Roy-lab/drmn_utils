@@ -1,0 +1,9 @@
+Motif1	Gene1	129360	2	Motif1;Gene1_TSS_Gene1_TSS1
+Motif1	Gene3	65407	1	Motif1;Gene3_TSS_Gene3_TSS1
+Motif4	Gene3	65407	1	Motif4;Gene3_TSS_Gene3_TSS1
+Motif1	Gene2	88900.6	2	Motif1;Gene2_TSS_Gene2_TSS2
+Motif2	Gene1	100775	1	Motif2;Gene1_TSS_Gene2_TSS1
+Motif2	Gene2	108615	3	Motif2;Gene2_TSS_Gene2_TSS1
+Motif3	Gene2	52325.6	1	Motif3;Gene2_TSS_Gene2_TSS1
+Motif4	Gene2	50740	1	Motif4;Gene2_TSS_Gene2_TSS3
+Motif5	Gene2	128941	2	Motif5;Gene2_TSS_Gene2_TSS1

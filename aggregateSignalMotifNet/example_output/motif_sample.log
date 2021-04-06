@@ -1,0 +1,28 @@
+Got option, value in next token: -n 1000000
+Got normalization factor 1e+06 from next token 1000000
+Window size20
+Created chromosome chr20
+Created chromosome chr21
+
+Read 22 values  Avg: 3.90909
+
+Global total was 86
+Now going over 2 chromosomes
+Working on chromosome chr20 with 3 motif-TSS combinations
+Working on chromosome chr21 with 12 motif-TSS combinations
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2014 The MathWorks, Inc.
+                   R2014b (8.4.0.150421) 64-bit (glnxa64)
+                             September 15, 2014
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> 
+mytitle =
+
+motif-sample
+
+>> 
