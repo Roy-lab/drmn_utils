@@ -1,4 +1,4 @@
-# Summaryare. 
+# Summary
 
 This directory contains all the input, intermmediate and output files for the Q-motif and promoter accessibility feature generation pipeline. The formatting of these files has been generally described in the readme files of the main directory and those of the aggregateSignalMotifNet and aggregateSignalRegion tools. 
 
@@ -27,4 +27,4 @@ and they can be readilly compressed with:
 ```
 tar -xf archive.tar.xz
 ```
-
+This has been tested with tar (GNU tar) 1.26. 
