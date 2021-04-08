@@ -1,0 +1,30 @@
+Usage: aggregateSignal bedfile chromosomesizes signal outfilePrefix [-p/--printProfile <windowSize>, -n/--normalize <scalar>]
+If -p/--printProfile option, will print per-base-pair signal for motif instances. Use with caution as it will create huge files.
+	This requires a parameter for defining a uniformly sized window around each motif center: center +/- window.
+	You need to set the window size at least as wide as half of your largest motif.
+If -n/--normalize <scalar>, will normalize to a sequencing depth time a scalar value given with this option.
+
+arguments:
+
+1. bedfile - a bed file of regions to aggregate signal for
+
+	The following format is anticipated:
+
+	MtrunA17Chr0c01	46923	46933	CNS_1_all_Nfix_MtrunA17Chr0c01	.	+
+	MtrunA17Chr0c01	46923	46933	CNS_1_all_Nfix_MtrunA17Chr0c01	.	-
+	MtrunA17Chr0c01	74693	74849	CNS_2_all_Nfix_MtrunA17Chr0c01	.	+
+
+2. chromosomesizes - a file listing the sequences (chromosomes) and their length, such as an .fai file
+3. a per bp coverage file generated from an ATACseq data set, generated with bedtools genomecov, in bedGraph format
+4. outfilePrefix - prefix for the output files. Specifically a <prefix>_aggregate.txt with values indicated. This file will present an aggregated signal for each region in the input which is the per bp coverage averaged over the regions
+
+Modified from Debbie's code in aggregateSignalMotifNet to take a simpler .bed format input file for the regions of interest
+
+Note this is motified to skip mitochodrial sequences, for ATACseq data, because mitochondrial data can be troublesome. 
+
+When -n is used the ratio of per bp coverage relative to the global mean will be taken and averaged per bp for the signal values.
+
+I have used -n 1 to implement that I am doing only depth normalization, which is implemented in the  Framework::normalize(double scalar) function.
+
+Have not fully troubleshooted the -p option for this exact code. 
+
