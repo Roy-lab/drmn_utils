@@ -1,6 +1,10 @@
 # Summary of Q-motif and promoter accessibility feature generation. 
 
-  This directory contains code and scripts for generating and normalizing Q-motif and promoter accessibility feature data for input to DRMN. The steps shown here (outlined in Example.sh) will walk through the several steps necessary to aggregate and normalize ATACseq accessibility signals for use un DRMN.
+  This directory contains code and scripts for generating and normalizing Q-motif and promoter accessibility feature data for input to DRMN. The steps shown here (outlined in Example.sh) will walk through the several steps necessary to aggregate and normalize ATACseq accessibility signals for use in DRMN. The files in example_files are meant to represent the full feature preparation pipeline, but for the chr1 subset of the Chronis et al. data set. 
+
+This directory contains code for three C++ utilities (aggregateSignalMotifNet, aggregateSignalRegion, and mergeData). To run the main example analysis in Example.sh you will need to first compile each of these. The first two (aggregateSignalMotifNet, aggregateSignalRegion have a simple make file), and mergeData can be compiled with a simple g++ command given in the readme for this tool.
+
+Aside from this running the full Example.sh analysis requires a working matlab and python installation. 
 
 ### Prepare coverage data from an aligned (ATACseq) library (.bam file). 
 
@@ -27,7 +31,7 @@ What follows is an example tutorial on aggregating and organizing such data into
 
 Given a set of motif instances (such as those listed in example_files/mouse_chr1_motif_example.txt), we first map those instances to gene TSS sites and aggregate the data for those regions. This is done in two steps first, using the aggregateSignalMotifNet/matchMotifToGenePerTF2.py script to apply that mapping, and the aggregateSignalMotifNet program to generate aggregated data for these motif instances for each data set. 
 
-The usage and formatting infromation for these two tools is presented in the master Example.sh script, and in particular in the README for the aggregateSignalMotifNet tool. Note when using the -n1 argument for aggregateSignalMotifNet the output data values will be divided by the mean per-bp, genome-wide coverage of signal.
+The usage and formatting infromation for these two tools is presented in the master Example.sh script, and in particular in the README for the aggregateSignalMotifNet tool. Note when using the -n1 argument for aggregateSignalMotifNet the output data values will be divided by the mean per-bp, genome-wide coverage of signal, but will not be further normalized.
 
 From this step a set of data files with unique identifiers representing motif and gene pairings is obtained:
 ```
@@ -61,7 +65,7 @@ example_files/mouse_chr1_example_merged_normalized.txt - example data matrix wit
 ```
 ### Aggregate (score) and normalize promoter signal data
 
-Similarly, as the set of Q-motif data aggregate and normalized based on an initial set of regions, we'll first define a set of promoter regions (for example example_files/promoters.bed) using the aggregateSignalRegion tool, and like wise merge and normalize these data separately, but in analogy to what has been shown for Q-motifs. The appropriate usage and formats are again exemplified in Example.sh (lines 29-45), the data in example_files, and the readme for the aggregateSignalRegion tool. (lines 29-45)
+Similarly, as the set of Q-motif data aggregate and normalized based on an initial set of regions, we'll first define a set of promoter regions (here in example_files/promoters.bed) using the aggregateSignalRegion tool, and likewise merge and normalize these data separately, but in analogy to what has been shown for Q-motifs. The appropriate usage and formats are again exemplified in Example.sh (lines 29-45), the data in example_files, and the readme for the aggregateSignalRegion tool.
 
 ```
 example_files/mouse_chr1_example_promoter_merged.txt - promoter signal data merged across conditions
@@ -71,7 +75,7 @@ example_files/mouse_chr1_example_promoter_merged_normalized.txt - example data m
 
 ### Prepare final feature input data files for DRMN 
 
-The input feature files for DRMN include both the Q-motif and promoter signal data as well as the number of regulatory features and genes included. The example feature files in example_files generated with Example.sh (lines 47-64) are:
+The input feature files for DRMN include both the Q-motif and promoter signal data as well as the number of regulatory features and genes included. The example feature files generated with Example.sh are:
 ```
 example_files/mouse_ESC_chr1_example_features.txt
 example_files/mouse_MEF_48hr_chr1_example_features.txt
