@@ -4,7 +4,7 @@
 
 This directory contains code for three C++ utilities (aggregateSignalMotifNet, aggregateSignalRegion, and mergeData). To run the main example analysis in Example.sh you will need to first compile each of these. The first two (aggregateSignalMotifNet, aggregateSignalRegion have a simple make file), and mergeData can be compiled with a simple g++ command given in the readme for this tool.
 
-Aside from this running the full Example.sh analysis requires a working matlab and python installation. 
+Aside from this running the full Example.sh analysis requires a working matlab and python installation. With these requirements met, the full example analysis can be implemented with Example.sh on the time scale of a few minutes.
 
 ### Prepare coverage data from an aligned (ATACseq) library (.bam file). 
 
