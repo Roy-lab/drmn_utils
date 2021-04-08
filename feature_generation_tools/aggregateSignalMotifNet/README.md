@@ -24,26 +24,32 @@ If -n/--normalize <scalar>, will normalize to a sequencing depth of <scalar>*1 m
 ### Input formatting
 
 The <tss> argument will be a set of motifs mapped to genes in the following format:
+
 ```
 (from ../example_files/mouse_chr1_example.txt)
 chr1	CONVERT	TSS_ENSMUST00000160944_TSS1	3042328	3042337	0.000006	+	.	TGANNYRGCA;ENSMUST00000160944
 chr1	CONVERT	TSS_ENSMUST00000160944_TSS1	3042487	3042500	0.000007	+	.	LM186;ENSMUST00000160944
 chr1	CONVERT	TSS_ENSMUST00000160944_TSS1	3042531	3042544	0.000000	+	.	LM32;ENSMUST00000160944
 ```
+	
 The chromosomesizes input is a standard genome .fai file:
+
 ```
 (from ../example_files/mm9.fa.fai)
 chr1	197195432	6	50	51
 chr2	181748087	201139353	50	51
 chr3	159599783	386522408	50	51
-```	
+```
+
 The signal file is a .bedGraph format file of read coverage (as from bedtools genomecov) in the following format:
+
 ```
 (from ../example_files/mouse_ESC_chr1_example.counts)
 chr1	3000463	3000514	1
 chr1	3000621	3000672	1
 chr1	3000938	3000989	1)
-```	
+```
+
 Finally the prefix argument is a prefix intended to organize the output file names. 	
 	
 ### Example
@@ -53,10 +59,28 @@ To run an example try:
 ```
 	./aggregateSignalMotifNet ../example_files/mouse_chr1_example.txt ../example_files/mm9.fa.fai ../example_files/mouse_ESC_chr1_example.counts ../:wexample_files/mouse_ESC_chr1_example_Q_motif -n 1
 ```
+
 ### Outputs:
 
-*_aggregate.txt*
-*aggregated_values.txt*
+<prefix>_aggregate.txt:
+	
+A formal set of information about the aggregation in the following format:
+```
+(from ../example_files/mouse_ESC_chr1_example_Q_motif_aggregate.txt)
+AAANWWTGC	ENSMUST00000000834	2.50564	1	AAANWWTGC;ENSMUST00000000834_TSS_ENSMUST00000000834_TSS1
+AAANWWTGC	ENSMUST00000001284	2.76939	1	AAANWWTGC;ENSMUST00000001284_TSS_ENSMUST00000001284_TSS1
+AAANWWTGC	ENSMUST00000003219	1.18688	1	AAANWWTGC;ENSMUST00000003219_TSS_ENSMUST00000003219_TSS1
+```
+
+<prefix>_aggregated_values.txt:
+
+A simplified output file for futher analysis with each row representing a motif-gene network pair, and an aggregated signal value. 
+```
+(from ../example_files/mouse_ESC_chr1_example_Q_motif_aggregated_values.txt)
+AAANWWTGC_ENSMUST00000000834	2.50564
+AAANWWTGC_ENSMUST00000001284	2.76939
+AAANWWTGC_ENSMUST00000003219	1.18688
+```
 
 ### Preparing input file of regions mapped to genes
 
