@@ -19,7 +19,7 @@ aggregateSignalToSum tss chromosomesizes signal outfilePrefix [-p/--printProfile
 If -p/--printProfile option, will print per-base-pair signal for motif instances. Use with caution as it will create huge files. 
   This requires a parameter for defining a uniformly sized window around each motif center: center +/- window.
 	You need to set the window size at least as wide as half of your largest motif.
-If -n/--normalize <scalar>, will normalize to a sequencing depth of <scalar>*1 million reads.
+If -n/--normalize <scalar>, will normalize the signal values by dividing them by the mean per-bp coverage across the genome. If the data set if for one or a set of chromosomes then the mean coverage will be taken with respect to the total genomic length of that/those chromosomes(s).
 ```
 ### Input formatting
 
@@ -81,6 +81,15 @@ AAANWWTGC_ENSMUST00000000834	2.50564
 AAANWWTGC_ENSMUST00000001284	2.76939
 AAANWWTGC_ENSMUST00000003219	1.18688
 ```
+If the -p option is used a specific per-bp singal profile will be aggregated with a specific window *w* around each input motif, producing a:
+<prefix>_signalProfile.txt output file in the following format:
+```
+(from ../example_files/mouse_ESC_chr1_example_Q_motif_signalProfile.txt if -p 100 is added to the above usage)
+chr1_163717707_163717715|AAANWWTGC;ENSMUST00000000834_TSS_ENSMUST00000000834_TSS1	2.37377	2.37377	2.37377	2.37377	2.37377	2.37377...
+chr1_173340604_173340612|AAANWWTGC;ENSMUST00000001284_TSS_ENSMUST00000001284_TSS1	0	0	0	0	0	0...	
+chr1_74281315_74281323|AAANWWTGC;ENSMUST00000006467_TSS_ENSMUST00000006467_TSS1	4.74753	4.74753	4.74753	4.74753	4.74753	4.74753...
+```
+This is generally unnecessary and not prioritizable, but it is a working example. 
 
 ### Preparing input file of regions mapped to genes
 
