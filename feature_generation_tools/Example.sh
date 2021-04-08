@@ -4,6 +4,8 @@
 #map motifs to genes with matchMotifToGenePerTF2.py
 python aggregateSignalMotifNet/matchMotifToGenePerTF2.py example_files/mouse_chr1_motif_example.txt example_files/Mus_musculus.NCBIM37.67.TSS.txt 2500 2500 example_files/mouse_chr1_example.txt
 
+export exeMN=aggregateSignalMotifNet/aggregateSignalMotifNet
+
 #aggregate signal for these mapped motif instances for each of the fiven example data sets
 for S in ESC MEF MEF_48hr pips1 pips2
 do
