@@ -51,14 +51,12 @@ Finally the prefix argument is a prefix intended to organize the output file nam
 To run an example try:
 
 ```
-	./aggregateSignalMotifNet ../example_files/mouse_chr1_example.txt ../example_files/mm9.fa.fai ../example_files/mouse_ESC_chr1_example.counts example_files/mouse_ESC_chr1_example_Q_motif -n 1
+	./aggregateSignalMotifNet ../example_files/mouse_chr1_example.txt ../example_files/mm9.fa.fai ../example_files/mouse_ESC_chr1_example.counts ../:wexample_files/mouse_ESC_chr1_example_Q_motif -n 1
 ```
 ### Outputs:
 
 *_aggregate.txt*
 *aggregated_values.txt*
-
-
 
 ### Preparing input file of regions mapped to genes
 
