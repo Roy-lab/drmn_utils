@@ -2,7 +2,7 @@
 
 This directory contains all the input, intermmediate and output files for the Q-motif and promoter accessibility feature generation pipeline. The formatting of these files has been generally described in the readme files of the main directory and those of the aggregateSignalMotifNet and aggregateSignalRegion tools. The included chart below summarizes the key contents in this directory, and how they were generated in the implementation presented in ../Example.sh.
 
-![Summary flow chart for example feature processing analysis](FileFlowChartSummary.pdf | width=800)
+![Summary flow chart for example feature processing analysis](FileFlowChartSummary.pdf)
 
 # Decompressing files
 
