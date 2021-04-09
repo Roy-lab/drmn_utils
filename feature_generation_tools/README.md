@@ -2,7 +2,25 @@
 
   This directory contains code and scripts for generating and normalizing Q-motif and promoter accessibility feature data for input to DRMN. The steps shown here (outlined in Example.sh) will walk through the several steps necessary to aggregate and normalize ATACseq accessibility signals for use in DRMN. The files in example_files are meant to represent the full feature preparation pipeline for the chr1 subset of the Chronis et al. data set. The goal is for the interseted user to be able to run this example feature-generation analysis as implemented with Example.sh.
 
-This directory contains code for three C++ utilities (aggregateSignalMotifNet, aggregateSignalRegion, and mergeData). To run the main example analysis in Example.sh you will need to first compile each of these. The first two (aggregateSignalMotifNet, and aggregateSignalRegion) include make files, and mergeData can be compiled with a simple command (g++ Framework.C -g -o mergeData, also noted in the corresponding readme). Running the complete analysis presented in Example.sh analysis requires a working matlab and python installation. With these requirements met the Example.sh analysis on the included data completes in the time scale of a few minutes, 
+This directory contains code for three C++ utilities (aggregateSignalMotifNet, aggregateSignalRegion, and mergeData). To run the main example analysis in Example.sh you will need to first compile each of these. The first two (aggregateSignalMotifNet, and aggregateSignalRegion) include make files, and mergeData can be compiled with a simple command (g++ Framework.C -g -o mergeData, also noted in the corresponding readme). Running the complete analysis presented in Example.sh analysis requires a working matlab and python installation. With these requirements met the Example.sh analysis on the included data completes in the time scale of a few minutes. 
+
+### Dorections for preparing the example feature analysis, run with Example.sh
+
+1. Decompress the .tar.xz files in the example_files directory. This is noted in the readme file of that directory. 
+2. Compile aggregateSignalMotifNet and aggregateSignal programs in the respective aggregateSignalMotifNet and aggregateSignalRegion_noLog directories, respectively with the 
+```
+make 
+``` 
+command.
+3. Compile the mergeData tool with 
+```
+g++ Framework.C -g -o mergeData
+```
+4. Change the executable permissions on Example.sh with 
+```
+ chmod 775 Example.sh 
+```
+5. Run the example analysis with Example.sh, which will produce all intermediate and output files in the example_files directory. 
 
 ### Prepare coverage data from an aligned (ATACseq) library (.bam file). 
 
@@ -23,7 +41,10 @@ example_files/mouse_MEF_chr1_example.counts
 example_files/mouse_pips1_chr1_example.counts
 example_files/mouse_pips2_chr1_example.counts
 ```
+
 What follows is an example tutorial on aggregating and organizing such data into Q-motif and promoter signal feature data inputs for DRMN. 
+
+
 
 ### Aggregate (score) motif instances for Q-motif features
 
