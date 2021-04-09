@@ -4,15 +4,15 @@
 
 This directory contains code for three C++ utilities (aggregateSignalMotifNet, aggregateSignalRegion, and mergeData). To run the main example analysis in Example.sh you will need to first compile each of these. The first two (aggregateSignalMotifNet, and aggregateSignalRegion) include make files, and mergeData can be compiled with a simple command (g++ Framework.C -g -o mergeData, also noted in the corresponding readme). Running the complete analysis presented in Example.sh analysis requires a working matlab and python installation. With these requirements met the Example.sh analysis on the included data completes in the time scale of a few minutes. 
 
-### Dorections for preparing the example feature analysis, run with Example.sh
+### Directions for preparing the example feature analysis
 
 1. Decompress the .tar.xz files in the example_files directory. This is noted in the readme file of that directory. 
-2. Compile aggregateSignalMotifNet and aggregateSignal programs in the respective aggregateSignalMotifNet and aggregateSignalRegion_noLog directories, respectively with the 
+2. Compile aggregateSignalMotifNet and aggregateSignal programs in the respective aggregateSignalMotifNet and aggregateSignalRegion_noLog directories, respectively, with the 
 ```
 make 
 ``` 
 command.
-3. Compile the mergeData tool with 
+3. Compile the mergeData tool in the merge data directory with 
 ```
 g++ Framework.C -g -o mergeData
 ```
@@ -22,9 +22,9 @@ g++ Framework.C -g -o mergeData
 ```
 5. Run the example analysis with Example.sh, which will produce all intermediate and output files in the example_files directory. 
 
-### Prepare coverage data from an aligned (ATACseq) library (.bam file). 
+### Prepare coverage data from an aligned (ATACseq) library (.bam file)
 
-  The bedtools genomecov tool is an expedient choice to generate coverage data from an aligned data set, which in this work are generally ATACseq data tracing genome acessibility or chromatin mark ChIPseq data. Here we use the "-bg" option to generate genome-wide coverage data in the bedGraph format. When assessing paried end data the "-pc" option has been applied to prepare coverage based on full fragment lengths of each pair. The format for such data will be as follows:
+  The bedtools genomecov tool is an expedient choice to generate coverage data from an aligned data set, which in this work are generally ATACseq data tracing genome acessibility or chromatin mark ChIPseq data. Here we use the "-bg" option to generate genome-wide coverage data in the bedGraph format. When assessing paried end data the "-pc" option is applied to obtain coverage based on full fragment lengths of each pair. The format for such data will be as follows:
   
 ```
 chr1	3000857	3000906	1
@@ -43,8 +43,6 @@ example_files/mouse_pips2_chr1_example.counts
 ```
 
 What follows is an example tutorial on aggregating and organizing such data into Q-motif and promoter signal feature data inputs for DRMN. 
-
-
 
 ### Aggregate (score) motif instances for Q-motif features
 
@@ -74,7 +72,7 @@ example_files/mouse_pips2_chr1_example_Q_motif_aggregated_values.txt
 
 ### Merge and normalize Q-motif feature data
 
-The aggregated signal values (already likely normalized by the mean per-bp coverage in each respective data set) are then merged, log transformed and quantile normalized. Such steps can indeed be applied flexibly depending on user preferences but here we've included the mergeData tool and the quantile_normalize.m script for one working option, with usage shown in Example.sh. 
+The aggregated signal values (already likely normalized by the mean per-bp coverage in each respective data set) are then merged, log transformed and quantile normalized. Such steps can indeed be applied flexibly depending on user preferences but here we've included the mergeData tool and the quantile_normalize.m script as working options, with usage presented in Example.sh. 
 
 Here the relevant files of interest (indicated in Example.sh) are:
 ```
