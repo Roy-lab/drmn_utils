@@ -106,10 +106,10 @@ ENSMUST00000166088 chr1   75032585    75032585
 The produced list of mappings can then be used as input for signal aggregation in the format for aggregateSignalMotifNet above. The specific usage for this working example is:
 
 ```
-python matchMotifToGenePerTF2.py ../example_files/mouse_chr1_motif_example.txt ../example_fil    es/Mus_musculus.NCBIM37.67.TSS.txt 2500 2500 ../example_files/mouse_chr1_example.txt
+python matchMotifToGenePerTF2.py ../example_files/mouse_chr1_motif_example.txt ../example_files/Mus_musculus.NCBIM37.67.TSS.txt 2500 2500 ../example_files/mouse_chr1_example.txt
 ```
 
-The mapping is done according to a defined upstream and downstream window relative to a gene TSS site. This window can be asymetric. A motif site within the defined window will be mapped to that respective gene. Note genes and motifs are in general multi-way mapped because a given motif site may fall within the specified TSS window of multiple genes,.
+The mapping is done according to a defined upstream and downstream window relative to a gene TSS site. This window can be asymetric. A motif site within the defined window will be mapped to that respective gene. Note genes and motifs are in general multi-way mapped because a given motif site may fall within the specified TSS window of multiple genes.
 
 
 
