@@ -7,7 +7,7 @@ python aggregateSignalMotifNet/matchMotifToGenePerTF2.py example_files/mouse_chr
 export exeMN=aggregateSignalMotifNet/aggregateSignalMotifNet
 
 #aggregate signal for these mapped motif instances for each of the fiven example data sets
-for S in ESC MEF MEF_48hr pips1 pips2
+for S in ESC MEF_48hr MEF pips1 pips2
 do
     eval ${exeMN} example_files/mouse_chr1_example.txt example_files/mm9.fa.fai example_files/mouse_${S}_chr1_example.counts example_files/mouse_${S}_chr1_example_Q_motif -n 1
 done
@@ -55,7 +55,7 @@ NR=`awk '{print $1}' example_files/mouse_chr1_example_merged_normalized.txt | se
 NG=`cat <(awk '{print $1}' example_files/mouse_chr1_example_merged_normalized.txt | sed 's/_/\t/g' | cut -f2 | sort -u) <(cut -f1 example_files/mouse_chr1_example_promoter_merged_normalized.txt) | sort -u | wc -l`
 
 c=2
-for S in ESC MEF MEF_48hr pips1 pips2
+for S in ESC MEF_48hr MEF pips1 pips2
 do
     export S=${S}
     #add header line with number of features and genes
