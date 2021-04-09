@@ -6,7 +6,7 @@ This directory contains code for three C++ utilities (aggregateSignalMotifNet, a
 
 ### Directions for preparing the example feature analysis
 
-1. Decompress the .tar.xz files in the example_files directory. This is noted in the readme file of that directory. 
+1. Decompress the .tar.xz files in the example_files directory (explained in the readme file of that directory). 
 2. Compile aggregateSignalMotifNet and aggregateSignal programs in the respective aggregateSignalMotifNet and aggregateSignalRegion_noLog directories, respectively, with the 
 ```
 make 
