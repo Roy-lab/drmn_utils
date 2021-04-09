@@ -23,7 +23,7 @@ If -n/--normalize <scalar>, will normalize the signal values by dividing them by
 ```
 ### Input formatting
 
-The <tss> argument will be a set of motifs mapped to genes in the following format:
+The tss argument will be a set of motifs mapped to genes in the following format:
 
 ```
 (from ../example_files/mouse_chr1_example.txt)
@@ -31,7 +31,8 @@ chr1	CONVERT	TSS_ENSMUST00000160944_TSS1	3042328	3042337	0.000006	+	.	TGANNYRGCA
 chr1	CONVERT	TSS_ENSMUST00000160944_TSS1	3042487	3042500	0.000007	+	.	LM186;ENSMUST00000160944
 chr1	CONVERT	TSS_ENSMUST00000160944_TSS1	3042531	3042544	0.000000	+	.	LM32;ENSMUST00000160944
 ```
-	
+Such inputs can be prepared with the matchMotifToGenePerTF2.py script, described below.
+
 The chromosomesizes input is a standard genome .fai file:
 
 ```
