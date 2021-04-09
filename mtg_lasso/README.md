@@ -18,3 +18,5 @@ gene4	2
 
 The matlab script runMTGLASSO.m is the wrapper script that will uses SLEP package to perform MTG-LASSO for one transitioning gene set.
 SLEP is available at http://yelabs.net/software/SLEP/
+
+The same generated input files can be used to apply linear regression (predicting the expression that is the first column of the data matrix as a function of regulatory features that are the remaining columns of the data matrix).
