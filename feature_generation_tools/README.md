@@ -48,7 +48,7 @@ What follows is an example tutorial on aggregating and organizing such data into
 
 Given a set of motif instances (such as those listed in example_files/mouse_chr1_motif_example.txt), we first map those instances to gene TSS sites and aggregate the data for those regions. This is done in two steps first, using the aggregateSignalMotifNet/matchMotifToGenePerTF2.py script to apply that mapping, and the aggregateSignalMotifNet program to generate aggregated data for these motif instances for each data set. 
 
-The usage and formatting infromation for these two tools is presented in the master Example.sh script, and in particular in the README for the aggregateSignalMotifNet tool. Note when using the -n1 argument for aggregateSignalMotifNet the output data values will be divided by the mean per-bp, genome-wide coverage of signal, but will not be further normalized.
+The usage and formatting infromation for these two tools is presented in the master Example.sh script, and in particular in the README for the aggregateSignalMotifNet tool. Note when using the -n1 argument for aggregateSignalMotifNet the output data values will be divided by the mean per-bp, genome-wide coverage of signal, but will not be further normalized or transformed.
 
 From this step a set of data files with unique identifiers representing motif and gene pairings is obtained:
 ```
@@ -72,7 +72,7 @@ example_files/mouse_pips2_chr1_example_Q_motif_aggregated_values.txt
 
 ### Merge and normalize Q-motif feature data
 
-The aggregated signal values (already likely normalized by the mean per-bp coverage in each respective data set) are then merged, log transformed and quantile normalized. Such steps can indeed be applied flexibly depending on user preferences but here we've included the mergeData tool and the quantile_normalize.m script as working options, with usage presented in Example.sh. 
+The aggregated signal values (already normalized by the mean per-bp coverage in each respective data set) are then merged, log transformed and quantile normalized. These steps can be applied flexibly depending on user preferences, but we've included the mergeData tool and quantile_normalize.m script as working options, with usages presented in Example.sh.
 
 Here the relevant files of interest (indicated in Example.sh) are:
 ```
@@ -113,7 +113,7 @@ ATAC	ENSMUST00000177472_ESC	2.805337
 ATAC	ENSMUST00000177501_ESC	1.175440
 ATAC	ENSMUST00000177532_ESC	1.175743
 ```
-The top two numbers are the number of regulatory features (the number of motifs represetned plus one for the ATAC promoter signal features) and the feature names designated here are the motif names and "ATAC" for the promoter signals. Here the gene names are also given a unique identifier for the condition the respective data points represent, here the "ESC" condtion for this working example data set. 
+The top two numbers are the number of regulatory features (the number of motifs represented plus one for the ATAC promoter signal features) and the feature names designated here are the motif names and "ATAC" for the promoter signals. Here the gene names are also given a unique identifier for the condition the respective data points represent, here the lines above are for the "ESC" condition data. 
 
 Such feature files are then utilized as direct input to DRMN along corresponding expression and cluster assignment data. 
 
